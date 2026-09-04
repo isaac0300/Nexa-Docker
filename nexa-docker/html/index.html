@@ -1,0 +1,159 @@
+<!DOCTYPE html> <html lang="pt-BR"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Nexa Sistemas</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f7fb;
+        color: #1f2937;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0f172a, #2563eb);
+        color: white;
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 20px;
+        color: #dbeafe;
+    }
+
+    main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 60px 20px;
+    }
+
+    .apresentacao {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .apresentacao h2 {
+        color: #1d4ed8;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .apresentacao p {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: #4b5563;
+    }
+
+    .servicos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .servico {
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+    }
+
+    .servico:hover {
+        transform: translateY(-5px);
+    }
+
+    .servico h3 {
+        color: #2563eb;
+        margin-bottom: 12px;
+        font-size: 21px;
+    }
+
+    .servico p {
+        color: #6b7280;
+    }
+
+    footer {
+        background-color: #0f172a;
+        color: #cbd5e1;
+        text-align: center;
+        padding: 25px;
+        margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 34px;
+        }
+
+        .servicos {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head> 
+
+<body>
+<header>
+    <h1>Nexa Sistemas</h1>
+    <p>Tecnologia que simplifica negócios.</p>
+</header>
+
+<main>
+    <section class="apresentacao">
+        <h2>Sobre a Nexa Sistemas</h2>
+        <p>
+            A Nexa Sistemas é uma empresa especializada em soluções
+            tecnológicas para negócios. Nosso objetivo é utilizar a
+            tecnologia para simplificar processos, otimizar resultados
+            e ajudar empresas a crescerem de forma inteligente e segura.
+        </p>
+    </section>
+
+    <section>
+        <div class="servicos">
+
+            <article class="servico">
+                <h3>Desenvolvimento de Sistemas</h3>
+                <p>
+                    Criamos sistemas personalizados para empresas,
+                    adaptados às necessidades de cada negócio.
+                </p>
+            </article>
+
+            <article class="servico">
+                <h3>Análise de Dados</h3>
+                <p>
+                    Transformamos dados em informações para apoiar
+                    decisões estratégicas e melhorar os resultados.
+                </p>
+            </article>
+
+            <article class="servico">
+                <h3>Infraestrutura</h3>
+                <p>
+                    Oferecemos soluções para ambientes tecnológicos
+                    modernos, seguros e eficientes.
+                </p>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Nexa Sistemas. Todos os direitos reservados.</p>
+</footer>
+
+</body> 
+</html>
