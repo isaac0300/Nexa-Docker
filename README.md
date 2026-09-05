@@ -4,7 +4,7 @@ Projeto acadêmico desenvolvido durante minha formação técnica em Desenvolvim
 
 ## Sobre o projeto
 
-O projeto consiste em uma aplicação web simples desenvolvida para uma empresa fictícia chamada **Nexa**.
+O projeto consiste em uma aplicação web simples desenvolvida para uma empresa fictícia chamada **Nexa Sistemas**.
 
 A atividade teve como objetivo praticar a utilização do Docker para empacotar e executar uma aplicação em um container.
 
